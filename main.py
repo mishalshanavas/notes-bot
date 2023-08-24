@@ -3,8 +3,8 @@ import time
 from instagrapi import Client
 
 # Instagram credentials
-USERNAME = "chatha_poocha"
-PASSWORD = "Mishal123."
+USERNAME = "your username"
+PASSWORD = "your psswd"
 
 # Constants
 BASE_MINUTE_INTERVAL = 15
