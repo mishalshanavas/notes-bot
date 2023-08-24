@@ -26,14 +26,16 @@ The **Notes Bot** project is an automated tool written in Python designed to enh
 ## Usage 🛠️
 0. **Clone the Repo** `git clone https://github.com/mishalshanavas/notes-bot `
 
-1. **Account Configuration:** Provide Instagram credentials (username and password) within the `USERNAME` and `PASSWORD` constants in `main.py`
+1. **Requirements** Install required dependencies with `pip install -r requirements.txt`
 
-2. **Customization:** Tailor the bot's messaging approach, interval timings, and notification content by modifying the relevant constants and functions.
+2. **Account Configuration:** Provide Instagram credentials (username and password) within the `USERNAME` and `PASSWORD` constants in `main.py`
 
-3. **Execution:** Upon executing the script, the bot verifies the presence of existing authentication cookies 🍪. If absent, it creates cookies through the login procedure.  Use `python main.py` to start the script
+3. **Customization:** Tailor the bot's messaging approach, interval timings, and notification content by modifying the relevant constants and functions.
+
+4. **Execution:** Upon executing the script, the bot verifies the presence of existing authentication cookies 🍪. If absent, it creates cookies through the login procedure.  Use `python main.py` to start the script
     
-4. **Note Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends Note featuring updated content based on the current time and the defined interval.
+5. **Note Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends Note featuring updated content based on the current time and the defined interval.
 
-5. **User Engagement:** Followers receive captivating messages that showcase the current time with clock emojis 🕓🕘 and incorporate interactive questions ❓. This fosters user engagement and interactions with the account.
+6. **User Engagement:** Followers receive captivating messages that showcase the current time with clock emojis 🕓🕘 and incorporate interactive questions ❓. This fosters user engagement and interactions with the account.
 
 **Note:** The Notes Bot project serves as a foundational code structure that necessitates further refinement and adaptation to ensure compatibility with potential updates to the Instagram API or the `instagrapi` library.
