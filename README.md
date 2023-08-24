@@ -1,5 +1,8 @@
 # Notes Bot 🤖📝
 
+![Untitled-1](https://github.com/mishalshanavas/notes-bot/assets/70484516/4b57f440-e2ed-4614-9e1c-99463edeeb9d)
+
+
 ## Description
 
 The **Notes Bot** project is an automated tool written in Python designed to enhance user engagement on Instagram by delivering personalized notification messages to a designated Instagram account at regular intervals. The bot generates notifications that incorporate the current time using clock emojis 🕐🕒 and prompts followers with thought-provoking questions, fostering interaction and audience engagement.
