@@ -18,9 +18,10 @@ The **Notes Bot** project is an automated tool written in Python designed to enh
 
 6. **Customization Potential:** The project's modular structure facilitates easy customization of the bot's behavior, messaging strategy, and notification frequency to cater to specific project requirements.
 
-7. **Countdown Timer:** To sustain anticipation, the bot showcases a countdown timer ⏳ that informs users when the next notification will be dispatched.
+7. **Countdown Timer:** To sustain anticipation, the bot showcases a countdown timer ⏳ that informs users when the next note will be dispatched.
 
 ## Usage 🛠️
+0. **Clone the Repo** `git clone https://github.com/mishalshanavas/notes-bot `
 
 1. **Account Configuration:** Provide Instagram credentials (username and password) within the `USERNAME` and `PASSWORD` constants.
 
@@ -28,7 +29,7 @@ The **Notes Bot** project is an automated tool written in Python designed to enh
 
 3. **Execution:** Upon executing the script, the bot verifies the presence of existing authentication cookies 🍪. If absent, it creates cookies through the login procedure.
 
-4. **Notification Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends notifications featuring updated content based on the current time and the defined interval.
+4. **Note Dispatch:** The bot operates within an infinite loop ♾️, continuously monitoring the current time. It sends notifications featuring updated content based on the current time and the defined interval.
 
 5. **User Engagement:** Followers receive captivating messages that showcase the current time with clock emojis 🕓🕘 and incorporate interactive questions ❓. This fosters user engagement and interactions with the account.
 
