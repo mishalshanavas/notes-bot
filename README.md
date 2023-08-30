@@ -1,6 +1,7 @@
 # Notes Bot 🤖📝
 
-![Untitled-1](https://github.com/mishalshanavas/notes-bot/assets/70484516/4b57f440-e2ed-4614-9e1c-99463edeeb9d)
+![Untitled-1](https://github.com/mishalshanavas/notes-bot/assets/70484516/cdd408dd-fae2-43e5-aa51-b6f61c8c0ffa)
+
 
 
 ## Description
