@@ -60,7 +60,7 @@ def send_notification(note_text):
     cl.login(USERNAME, PASSWORD)
     hr, round_min, emoji = get_time_data()
     print(f"{hr}:{round_min} {emoji} - {note_text}")
-    cl.send_note(note_text, 0)
+    cl.create_note(note_text, 0)
     return f"Posted on {hr}:{round_min}"
 
 # Main Script
