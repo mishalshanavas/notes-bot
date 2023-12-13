@@ -30,7 +30,7 @@ def get_time_data():
     clock_emojis = ['🕐', '🕜', '🕑', '🕝', '🕒', '🕞', '🕓', '🕟', '🕔', '🕠', '🕕', '🕡',
                     '🕖', '🕢', '🕗', '🕣', '🕘', '🕤', '🕙', '🕥', '🕚', '🕦', '🕛', '🕧']
 
-    time_min = int(time.strftime("%M").lstrip('0'))
+    time_min = int(time.strftime("%M"))
     time_hr = int(time.strftime("%I", current_time).lstrip('0'))
 
     if time_min < 23:
