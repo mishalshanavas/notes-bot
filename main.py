@@ -3,8 +3,8 @@ import time
 from instagrapi import Client
 
 # Instagram credentials
-USERNAME = "your username"
-PASSWORD = "your psswd"
+USERNAME = "your_username"
+PASSWORD = "your_psswd"
 
 # Constants
 BASE_MINUTE_INTERVAL = 15
@@ -54,7 +54,7 @@ def countdown(seconds):
         time.sleep(1)
         seconds -= 1
 
-def send_notification(note_text):
+def send_note(note_text):
     cl = Client()
     cl.load_settings(f"{USERNAME}.json")
     cl.login(USERNAME, PASSWORD)
@@ -84,7 +84,7 @@ while True:
     note_text = f'Time is almost {emoji} {hr}:{rounded_min}. Are you still here?'
     
     if previous_note_text != note_text:
-        print(send_notification(note_text))
+        print(send_note(note_text))
         previous_note_text = note_text
     else:
         countdown(100)
